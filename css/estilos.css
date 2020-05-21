@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 700px;
+    height: 600px;
+    background-color: rgb(136, 136, 136);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#up{
+    width: 700px;
+    height: 300px;
+}
+.selector{
+    width: 80px;
+    height: 300px;
+    float: left;
+    padding: 70px 10px;
+}
+.botones1{
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    margin: 5px 0px;
+    border: none;
+    background: linear-gradient(#5a5a5a,#000000)
+}
+.botones1:hover{
+    background: linear-gradient(#000000,#5a5a5a);
+}
+i{
+    color: white;
+}
+
+#pantalla{
+    float: left;
+    padding: 10px;
+    width: 540px;
+    height: 300px;
+    border: 10px solid rgb(111, 109, 116);
+    border-radius: 10px;
+    background-image: linear-gradient(#fbee5f,#f4ebb4);
+    margin: 0 auto;
+}
+input{
+    outline: none;
+    border: 3px solid #e2a52b;
+    width: 250px;
+    font-size: 20px;
+}
+#down{
+    width: 700px;
+    height: 300px;
+}
+#operaciones{
+    width: 350px;
+    height: 300px;
+    float: left;
+}
+#añadidos{
+    width: 350px;
+    height: 300px;
+    float: right;
+}
+#numeros{
+    width: 250px;
+    height: 300px;
+    float: left;  
+    padding: 5px 5px 20px 20px;
+}
+.dig{
+    width: 33%;
+    height: 25%;
+    border-radius: 10px;
+    border: none;
+    border: 3px solid black;
+    background: linear-gradient(#f9f9f9,#aaaaaa);
+}
+#botones{
+    width: 100px;
+    height: 300px;
+    float: left;
+    padding: 5px 5px 20px 5px;
+}
+.dog{
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;  
+    border-radius: 5px;
+}
+#cancel{
+    background: linear-gradient(#f3090f,#f4030b);
+    color: white;
+}
+#clear{
+    background: linear-gradient(#f29c34,#f28f27);
+    color: white;
+}
+#ok{
+    background: linear-gradient(#5ab423,#4e991e);
+    color: white;
+}
+#none{
+    background-color: #6a6a6a;
+    color:#6a6a6a;
+}
+#añadidos{
+    padding: 5px 10px 5px 5px;
+}
+#card{
+    width: 50%;
+    height: 33%;
+    display: inline-block;
+}
+#receipt{
+    width: 50%;
+    height: 33%;
+    float:right;
+}
+#cash{
+    width: 100%;
+    height: 33%;
+}
+#deposit{
+    width: 100%;
+    height: 33%;
+}
+.caja1{
+    width: 100%;
+    height: 30%;
+    background-color: #747474;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid#5f5f5f;
+}
+.caja2{
+    width: 100%;
+    height: 40%;
+    background-color: #747474;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 2px solid#5f5f5f;
+}
+#cajucha1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#cajucha2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
