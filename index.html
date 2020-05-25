@@ -22,8 +22,8 @@
             <div id="pantalla">
                 <h2>¡Bienvenidos al banco!</h2>
                 <h3>Por favor digite su clave:</h3><br>
-                <form action="">
-                    <input  id="password" placeholder="**************">
+                <form action="contraseña">
+                    <input type="password" id="password" size="2" pattern="[0-9]{9}">
                 </form>
             </div>
             <div class="selector">
@@ -40,7 +40,7 @@
                     <button class="dig" id="1">1</button><button class="dig" id="2">2</button><button class="dig" id="3">3</button><br>
                     <button class="dig" id="4">4</button><button class="dig" id="5">5</button><button class="dig" id="6">6</button><br>
                     <button class="dig" id="7">7</button><button class="dig" id="8">8</button><button class="dig" id="9">9</button><br>
-                    <button class="dig" id="nofunction">*</button><button class="dig" id="0">0</button><button class="dig" id="nofunction">#</button>
+                    <button class="dig" id="nofunction" disabled>°</button><button class="dig" id="0">0</button><button class="dig" id="nofunction">.</button>
                 </div>
                 <div id="botones">
                     <button class="dog" id="cancel">CANCEL</button><br>
@@ -72,7 +72,7 @@
                     <b>DEPOSIT</b>
                     <div class="caja2">
                         <div id="cajucha2"></div>
-                    </div>
+                </div>
                 </div>
             </div>
         </div>
