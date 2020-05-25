@@ -8,15 +8,15 @@ section{
     height: 600px;
     background-color: rgb(136, 136, 136);
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 #up{
     width: 700px;
-    height: 300px;
+    height: 320px;
 }
 .selector{
     width: 80px;
-    height: 300px;
+    height: 100%;
     float: left;
     padding: 70px 10px;
 }
@@ -26,9 +26,10 @@ section{
     height: 30px;
     margin: 5px 0px;
     border: none;
+    padding: 8px 20px;
     background: linear-gradient(#5a5a5a,#000000)
 }
-.botones1:hover{
+.botones1:active{
     background: linear-gradient(#000000,#5a5a5a);
 }
 i{
@@ -39,11 +40,10 @@ i{
     float: left;
     padding: 10px;
     width: 540px;
-    height: 300px;
+    height: 100%;
     border: 10px solid rgb(111, 109, 116);
     border-radius: 10px;
     background-image: linear-gradient(#fbee5f,#f4ebb4);
-    margin: 0 auto;
 }
 input{
     outline: none;
@@ -53,43 +53,53 @@ input{
 }
 #down{
     width: 700px;
-    height: 300px;
+    height: 280px;
 }
 #operaciones{
     width: 350px;
-    height: 300px;
+    height: 100%;
     float: left;
 }
 #añadidos{
     width: 350px;
-    height: 300px;
+    height: 100%;
     float: right;
 }
 #numeros{
-    width: 250px;
-    height: 300px;
-    float: left;  
-    padding: 5px 5px 20px 20px;
+    width: 225px;
+    height: 100%;
+    padding: 5px;
+    float: left;
 }
 .dig{
-    width: 33%;
-    height: 25%;
+    width: 61px;
+    height: 56px;
     border-radius: 10px;
     border: none;
-    border: 3px solid black;
+    border: 2px solid black;
     background: linear-gradient(#f9f9f9,#aaaaaa);
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 5px;
+}
+.dig:active{
+    background: linear-gradient(#aaaaaa,#f9f9f9);
 }
 #botones{
-    width: 100px;
-    height: 300px;
+    width: 125px;
+    height: 100%;
     float: left;
-    padding: 5px 5px 20px 5px;
+    padding: 5px;
 }
 .dog{
     width: 100%;
-    height: 25%;
-    border: 1px solid black;  
-    border-radius: 5px;
+    height: 56px;
+    border: 2px solid black;  
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 5px 0px;
 }
 #cancel{
     background: linear-gradient(#f3090f,#f4030b);
@@ -114,43 +124,61 @@ input{
     width: 50%;
     height: 33%;
     display: inline-block;
+    padding: 0px 10px 0px 5px;
 }
 #receipt{
     width: 50%;
     height: 33%;
     float:right;
+    padding: 0px 5px 0px 10px;
 }
 #cash{
     width: 100%;
     height: 33%;
+    padding: 0px 5px;
 }
 #deposit{
     width: 100%;
     height: 33%;
+    padding: 0px 5px;
 }
 .caja1{
     width: 100%;
     height: 30%;
     background-color: #747474;
-    padding: 10px;
     border-radius: 5px;
     border: 2px solid#5f5f5f;
+    padding: 7px;
 }
 .caja2{
     width: 100%;
     height: 40%;
     background-color: #747474;
-    padding: 12px 10px;
     border-radius: 5px;
     border: 2px solid#5f5f5f;
+    padding: 11.5px 5px;
 }
 #cajucha1{
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
 }
 #cajucha2{
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+b{
+    color: white;
+    font: 400 13.3333px Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 5px ;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
