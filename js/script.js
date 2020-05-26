@@ -1,9 +1,14 @@
-class{
+class clave{
     constructor(pass){
         this.pass=pass;
     }
 }
-
-function comprobar(){
-    alert("hola boleasda");
+function cancelar(){
+    document.getElementById("password").value="";
+}
+function clear(){
+    document.getElementById("password").value
+}
+function pulsar(){
+    alert("hola boleada");
 }

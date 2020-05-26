@@ -41,7 +41,7 @@ i{
 
 #pantalla{
     float: left;
-    padding: 10px;
+    padding-top: 10px;
     width: 540px;
     height: 100%;
     border: 10px solid rgb(111, 109, 116);
@@ -180,15 +180,83 @@ img{
     width: 100%;
     height: 100%;
 }
-input{
-    outline: none;
-    border: 3px solid #e2a52b;
-    width: 250px;
-    height: 40px;
-
-}
-#titulo{
-    display: inline;
-    margin: 0 auto;
+#titulomenu{
     text-align: center;
+    font-size: 40px;
+    height: 80px;
+    color: #471900;
+    font-family: 'Anton', sans-serif;
+}
+.trderecha{
+    border-left: 30px solid #F69200;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+    float: left;
+}
+.trizquierda{
+    border-right: 30px solid #F69200;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+    float: right;
+}
+.derecha{
+    width: 50%;
+    height: 30px;
+    margin: 10px 0px;
+    float: left;
+}
+.izquierda{
+    height: 30px;
+    float: right;
+    margin: 10px 0px;
+}
+.d{
+    color: #471900;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+    margin-top: 5px;
+}
+.i{
+    color: #471900;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+}
+#tituloretiro{
+    text-align: center;
+    font-size: 25px;
+    height: 130px;
+    color: #471900;
+    font-family: 'Anton', sans-serif;
+}
+#monto{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+    color: #471900;
+    padding-left: 5px;
+    width: 150px;
+}
+#sola{
+    color: #471900;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+}
+#titulotfin{
+    text-align: center;
+    font-size: 40px;
+    height: 180px;
+    color: #471900;
+    font-family: 'Anton', sans-serif;
+}
+#titulofin2{
+    text-align: center;
+    font-size: 25px;
+    color: #471900;
+    font-family: 'Anton', sans-serif; 
 }
