@@ -260,3 +260,12 @@ img{
     color: #471900;
     font-family: 'Anton', sans-serif; 
 }
+#pantalla2{
+    float: left;
+    padding-top: 80px;
+    width: 540px;
+    height: 100%;
+    border: 10px solid rgb(111, 109, 116);
+    border-radius: 10px;
+    background-image: linear-gradient(#fbee5f,#f4ebb4);
+}

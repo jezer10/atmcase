@@ -22,7 +22,7 @@
             <div id="pantalla">
                 <h2 id="titulo">¡Bienvenidos al banco!</h2>
                 <h3 id="subtitulo">Por favor digite su clave:</h3><br>
-                <input type="password" id="password" pattern="[0-9]{9}">
+                <input type="password" id="password" minlength="8" maxlength="8" pattern="[0-9]{8}" disabled>
             </div>
             <div class="selector">
                 <button class="botones1"><img src="icons/larrow.png" alt="flechaizquierda"></i></button>
@@ -35,15 +35,15 @@
         <div id="down">
             <div id="operaciones">
                 <div id="numeros">
-                    <button class="dig" id="1">1</button><button class="dig" id="2">2</button><button class="dig" id="3">3</button><br>
-                    <button class="dig" id="4">4</button><button class="dig" id="5">5</button><button class="dig" id="6">6</button><br>
-                    <button class="dig" id="7">7</button><button class="dig" id="8">8</button><button class="dig" id="9">9</button><br>
-                    <button class="dig" id="nofunction" disabled>°</button><button class="dig" id="0">0</button><button class="dig" id="nofunction">.</button>
+                    <button class="dig" id="1" onclick="nomi('1')">1</button><button class="dig" id="2" onclick="nomi('2')">2</button><button class="dig" id="3" onclick="nomi('3')">3</button><br>
+                    <button class="dig" id="4" onclick="nomi('4')">4</button><button class="dig" id="5" onclick="nomi('5')">5</button><button class="dig" id="6" onclick="nomi('6')">6</button><br>
+                    <button class="dig" id="7" onclick="nomi('7')">7</button><button class="dig" id="8" onclick="nomi('8')">8</button><button class="dig" id="9" onclick="nomi('9')">9</button><br>
+                    <button class="dig" id="nofunction" disabled>°</button><button class="dig" id="0" onclick="nomi('0')">0</button><button class="dig" id="nofunction" disabled>.</button>
                 </div>
                 <div id="botones">
                     <button class="dog" id="cancel" onclick="cancelar()">CANCEL</button><br>
-                    <button class="dog" id="clear">CLEAR</button><br>
-                    <button class="dog" id="ok" onclick="pulsar()">OK</button><br>
+                    <button class="dog" id="clear" onclick="limpiar()">CLEAR</button><br>
+                    <button class="dog" id="ok" onclick="login()">OK</button><br>
                     <button class="dog" id="none" disabled>NONE</button>
                 </div>
             </div>
