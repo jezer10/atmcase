@@ -269,3 +269,9 @@ img{
     border-radius: 10px;
     background-image: linear-gradient(#fbee5f,#f4ebb4);
 }
+#cons{
+    text-align: center;
+    font-size: 25px;
+    color: #471900;
+    font-family: 'Anton', sans-serif; 
+}

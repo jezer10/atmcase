@@ -1,6 +1,6 @@
 var x=document.getElementById("password");
-var a=document.getElementById("monto")
-var saldo = 5000;
+var a=document.getElementById("monto");
+var saldo = localStorage.getItem("data");
 var i = 3;
 class clave{
     constructor(pass){
@@ -47,6 +47,7 @@ function login(){
     var p  = new clave(x.value);
     if(p.validate()){
         si();
+        localStorage.setItem("data",5000);
     }else{
         i--;
         if(i==0){
@@ -60,18 +61,29 @@ function login(){
     }
 }
 function money(){
-    if(a.value>saldo){
-        alert("no cuenta con saldo suficiente")
+    var s= parseInt(localStorage.getItem("data"));
+    if(a.value>s){
+        alert("No cuenta con saldo suficiente.")
         cancelar2();
     } else{
         if((a.value%10)>0){
-            alert("no es multiplo de 10");
+            alert("No es multiplo de 10.");
             cancelar2();
         }else{
-            saldo = saldo-a.value;
-            alert(saldo);
+            s = s-a.value;
+            localStorage.setItem("data",s);
             window.location.href="transaccion.html";
         }
+    }
+}
+function money2(n){
+    var s= parseInt(localStorage.getItem("data"));
+    if(n>s){
+        alert("No cuenta con saldo suficiente.")
+    } else{
+            s = s-n;
+            localStorage.setItem("data",s);
+            window.location.href="transaccion.html";
     }
 }
 function si(){
@@ -101,5 +113,8 @@ function volver3(){
 function consulta(){
     window.location.href="consulta.html";
 }
+function mostrarsaldo(){
+    document.getElementById("titulofin2").innerHTML= "hola"+saldo;
 
-
+}
+document.getElementById("cons").innerHTML= "S/. "+localStorage.getItem("data");
